@@ -18,28 +18,19 @@ public class CheckerPattern {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size: ");
         int size = scanner.nextInt();
-        String col1 = " ";
-        String col2 = "#";
-        String temp;
+        String sign = "#";
 
         for (int row = 1; row <= size; row++) {
-
-            if ((row % 2) == 0) {
-                temp = col1;
-                System.out.print(col1);
-            } else {
-                temp = col2;
-                System.out.print(col2);
+            if (row % 2 == 0) {
+                System.out.print(" ");
             }
             for (int col = 1; col <= size; col++) {
-                if (temp.equals(col1)) {
-                    temp = col2;
-                    System.out.print(col2);
+                if ((row % 2) == 0) {
+                    System.out.print(sign + " ");
+
                 } else {
-                    temp = col1;
-                    System.out.print(col1);
+                    System.out.print(sign + " ");
                 }
-                System.out.print("");
             }
             System.out.println();
         }
