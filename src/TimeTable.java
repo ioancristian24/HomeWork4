@@ -39,8 +39,15 @@ public class TimeTable {
         }
         System.out.println();
 
-        System.out.printf("%-4s\n",cratima);
 
+        for (m = -35; m <= size; m++) {
+            if (m % 2 == 0) {
+                System.out.print(cratima);
+            } else {
+                System.out.print(cratima);
+            }
+        }
+        System.out.println();
 
         for (m = 1; m <= size; m++) {
             System.out.printf("%-4d", m);
