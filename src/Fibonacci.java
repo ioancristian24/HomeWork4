@@ -15,9 +15,7 @@ public class Fibonacci {
 
 
         System.out.print("The Fibonacci sequences of this number by recurssing are: ");
-        for (int i = 0; i < number; i++){
-            System.out.print(fibonacciRecurssion(i) + " ");
-        }
+        fibonacciRecurssion(0,1,number,2);
     }
 
     public static void fibonacciIteration(int input) {
@@ -26,7 +24,7 @@ public class Fibonacci {
         int n2 = 1;
         int sum;
 
-        System.out.print("The Fibonacci sequences of this number by interating are: ");
+        System.out.print("The Fibonacci sequences of this number by iterating are: ");
         System.out.print(" " + n1);
         System.out.print(" " + n2);
         sum = n1 + n2;
@@ -39,20 +37,23 @@ public class Fibonacci {
             System.out.print(" " + sum);
         }
         System.out.println();
-
     }
 
 
-    public static int fibonacciRecurssion(int number) {
+    public static void fibonacciRecurssion(int n1, int n2, int number, int i) {
 
-        if (number == 0) return 0;
-        if (number == 1) return 1;
+        if (i < number){
+            int newnumber = n1 + n2;
+            System.out.print(newnumber + " ");
+            fibonacciRecurssion(n2, newnumber, number, i++);
+        }
 
-        int fibonacci_term;
-
-        fibonacci_term = fibonacciRecurssion(number - 1) + fibonacciRecurssion(number -2);
-
-
-        return fibonacci_term;
     }
 }
+
+
+//int i = 0;
+//while (i < number) {
+//System.out.print(fibonacciRecurssion(i) + " ");
+// i++;
+//}
