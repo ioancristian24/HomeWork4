@@ -44,11 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyMathematicalOperations.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StringDataCounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="103" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/TimeTable.java" />
         <option value="$PROJECT_DIR$/src/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/MyMathematicalOperations.java" />
+        <option value="$PROJECT_DIR$/src/StringDataCounter.java" />
       </list>
     </option>
   </component>
@@ -144,7 +157,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557351285722" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557525719092" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week3" />
   </component>
   <component name="RecentsManager">
@@ -164,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyMathematicalOperations">
+  <component name="RunManager" selected="Application.StringDataCounter">
     <configuration name="CheckerPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckerPattern" />
       <module name="HomeWork4" />
@@ -186,6 +199,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringDataCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringDataCounter" />
+      <module name="HomeWork4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TimeTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TimeTable" />
       <module name="HomeWork4" />
@@ -195,6 +215,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringDataCounter" />
         <item itemvalue="Application.MyMathematicalOperations" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.TimeTable" />
@@ -228,7 +249,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46463022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26205787" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39871383" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,6 +365,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StringDataCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="103" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
